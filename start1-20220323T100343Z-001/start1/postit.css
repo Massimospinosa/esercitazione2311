@@ -1,0 +1,74 @@
+@media screen and (min-width:1200px) {
+body{
+    font-family: 'Indie Flower' , cursive;
+    font-size: 1.8rem;
+    background-color: rgb(148, 146, 146);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+div>h1{
+    margin-bottom: 20px;
+}
+div{
+    box-shadow: 9px 5px 20px 11px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin: 50px 25px 25px 25px;
+    padding-top: 9vh;
+    height:20vh;
+    width: 18vw;
+    font-size: xx-large;
+    scale:1.2;
+}
+
+div:nth-child(1){
+    background-color: #F6F6C4;
+    rotate: 10deg;
+}
+div:nth-child(2){
+    background-color: #AFD0B1;
+    rotate: -8deg;
+
+}
+div:nth-child(3){
+    background-color: #BBBBDD;
+    rotate:20deg;
+    
+}
+div:nth-child(4){
+    background-color: #AFD0B1;
+    rotate:-30deg;
+
+}
+div:nth-child(5){
+    background-color: #F6F6C4;
+    rotate:-12deg;
+
+}
+div:nth-child(6){
+    background-color: #BBBBDD;
+    rotate:30deg;
+}
+div:nth-child(7){
+    background-color: #F6F6C4;
+    rotate:-4deg
+}
+div:nth-child(8){
+    background-color: #AFD0B1;
+    rotate: 20deg;
+
+
+}
+div:hover{
+    cursor: pointer;
+    transition-property: width , height;
+    transition-duration: 1s;
+    width:21vw;
+    height: 24vh;
+    box-shadow: 5px 20px 7px 13px rgba(0, 0, 0, 0.3);
+    rotate: 0deg;
+    z-index: 2;
+
+}
+}
